@@ -1,0 +1,98 @@
+.header{
+    background-color: rgb(64, 173, 0);
+    width : 100%;
+    height : 100px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+    font-family: "Lilita One", sans-serif;                
+    text-align: center;
+}
+
+.formulaire {
+  margin-top: 0%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(64, 173, 0);
+    font-size: 30px;
+    align-items: center; 
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;   
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: "Lilita One", sans-serif;
+    color: rgb(64, 173, 0);
+    font-size: 30px;
+    text-align: center;   
+    margin-top: -3%;
+  }
+
+label {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+form {
+  max-width: 300px; /* Définir une largeur maximale pour le formulaire */
+  margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left; /* Aligner le texte de l'étiquette à gauche */
+}
+
+input {
+  width: 100%;
+  padding: 6px; /* Réduire la hauteur du padding pour réduire la hauteur totale de la case */
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto; /* Centrer la case horizontalement */
+}
+
+input[type="submit"] {
+  background-color: #4caf50; /* Couleur de fond pour le bouton Envoyer */
+  color: white; /* Couleur du texte pour le bouton Envoyer */
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Couleur de fond au survol du bouton Envoyer */
+}
+
+.btn-btn-secondary-dropdown-toggle{
+  background-color: rgb(64, 173, 0);
+}
+
+select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+
+}
